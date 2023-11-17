@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="main-box">
+            <div class="main-text">
+                <p>PASSWORD GENERATOR</p>
+            </div>
+            <div class="output-box">
+                <input type="text" id="output">
+                <button id="copy-button" onclick="copyTextFromInput()">COPY</button>
+            </div>
+            <div class="range-box">
+                <input type="range" min="1" max="100" value="50" id="range"><p id="range-value">50</p>
+            </div>
+            <div class="checkbox">
+                <ul class="left-checkbox">
+                    <li><input type="checkbox" id="ck1" class="ck"><label for="ck1">Uppercase(A-Z)</label></li>
+                    <li><input type="checkbox" id="ck2" class="ck"><label for="ck2">Lowercase(a-z)</label></li>
+                    <li><input type="checkbox" id="ck3" class="ck"><label for="ck3">Number(0-9)</label></li>
+                </ul>
+                <ul class="right-checkbox">
+                    <li><input type="checkbox" id="ck4" class="ck"><label for="ck4">Symbol</label></li>
+                    <li><input type="checkbox" id="ck5" class="ck"><label for="ck5">Exclude Duplicate</label></li>
+                    <li><input type="checkbox" id="ck6" class="ck"><label for="ck6">Include Spaces</label></li>
+                </ul>
+            </div>
+            <div class="main-button">
+                <button onclick="create()">CREATE</button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

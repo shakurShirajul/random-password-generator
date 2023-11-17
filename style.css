@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-text{
+    font-size: 40px
+}
+.output-box{
+    display: flex;
+    justify-content: center;
+}
+#output{
+    width: 95%;
+    height: 43px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+}
+#copy-button{
+    height: 50px;
+    width: 100px;
+    vertical-align: middle;
+}
+.range-box{
+    display: flex;
+    justify-content: center;
+}
+#range{
+    width: 95%;
+}
+#range-value{
+    font-size: 20px;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    list-style-type: none;
+    font-size:25px;
+}
+li{
+    margin: 5px;
+}
+.main-button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 35px;
+    font-size: 16px;
+}
